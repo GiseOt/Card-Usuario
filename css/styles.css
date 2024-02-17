@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 350px;
+    height: 445px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    background-color:#8B8CA4;
+    border: 2px solid #10B9C9;
+    border-radius: 100%;
+}
+
+/*contenedor 1*/
+.card__1{
+    height: 70%;
+    text-align: center;
+    padding:  20px;
+}
+
+/*contenedor 2*/
+.contenedor__2{
+    height: 30%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;   
+}
+
+/*Nombre y Apellido*/
+h1{
+    font-size: 20px;
+    padding-top: 10px;
+    color:rgb(253, 141, 20) ;
+}
+
+/*Lugar*/
+h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*datos*/
+p{
+    margin: 5px;
+    font-size: 12px;
+}
+
+.card__seguir{
+    margin-top: 25px;
+}
+
+/* Seguir*/
+button{ 
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 12px;
+    border: 1px solid #10B9C9;
+}
+
+button:hover{
+    background-color:indianred;
+}
+/*Mensaje*/
+.mensaje--azul{
+    background-color: #1eaee2;
+    color: white;
+}
+
+/*Habilidades*/
+.contenedor__2--titulo{
+    font-size: 12px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+/*Descripcion Habilidades*/
+.contenedor__2--2{
+    font-size: 12px;
+    display: flex ;
+    justify-content:space-evenly;
+}
+
+.contenedor__2--caja{
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.color{
+    background-color: rgb(220, 73, 19);
+}
